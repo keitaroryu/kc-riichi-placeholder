@@ -362,12 +362,6 @@ body {
 
 header {
   height: auto;
-  padding: 50px;
-  border: 0px solid transparent;
-  border-color: rgb(0,0,0);
-  border-image-outset: 0 0 1 0;
-  color: #c3c3c3;
-  font-size: 25px;
 }
 
 h1 {
@@ -384,20 +378,12 @@ h2 {
 div {
   border: 0px solid transparent;
   border-color: rgb(0,0,0);
-}
-
-.content-text {
-  border-image-outset: 1 0 1 0;
-  height: 320px;
+  color: #c3c3c3;
+  font: 28px verdana;
   padding: 25px;
-  width: auto;
-  overflow-wrap: normal;
-  font-size: 20px;
-  color:#c3c3c3;
-  text-align: left;
 }
 
-.content-header{
+.social{
   height: 60px;
 }
 
@@ -418,6 +404,6 @@ div {
 }
 
 img{
-  height: 285px;
-  width: 507px;
+  height: 450px;
+  width: 800px;
 }
