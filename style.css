@@ -363,7 +363,7 @@ body {
 header {
   height: auto;
   padding: 50px;
-  border: 20px solid transparent;
+  border: 0px solid transparent;
   border-color: rgb(0,0,0);
   border-image-outset: 0 0 1 0;
   color: #c3c3c3;
@@ -382,7 +382,7 @@ h2 {
 }
 
 div {
-  border: 20px solid transparent;
+  border: 0px solid transparent;
   border-color: rgb(0,0,0);
 }
 
@@ -399,7 +399,16 @@ div {
 
 .content-header{
   height: 60px;
+}
 
+.social-outer{
+  padding: 25px;
+}
+
+.social-img{
+  width: 66px;
+  height: 50px;
+  vertical-align: middle;
 }
 
 #emblem{
@@ -411,67 +420,4 @@ div {
 img{
   height: 285px;
   width: 507px;
-}
-
-.img-content{
-  float: right;
-  margin-left: 50px;
-}
-
-#felyne-gif-banner{
-  height: 100px;
-  width: 700px;
-}
-
-#img-header-left{
-  float: left;
-  height: 60px;
-  width: 60px;
-}
-
-#img-header-right{
-  float: right;
-  height: 60px;
-  width: 60px;
-}
-
-#img-ending-left{
-  float: left;
-  height: 300px;
-  width: 280px;
-  margin-right: 50px;
-}
-
-#img-ending-right{
-  float: right;
-  height: 300px;
-  width: 280px;
-  margin-left: 50px;
-}
-
-article{
-  border: 20px solid transparent;
-  border-color: rgb(0,0,0);
-  border-image-outset: 0 0 1 0;
-  font-size: 15px;
-  color:white;
-  padding-top: 15px;
-}
-
-footer{
-  border: 20px solid transparent;
-  border-color: rgb(0,0,0);
-  font-size: 15px;
-  color:white;
-}
-
-#mute{
-  border: 3px solid black;
-  background-color: #2a1408;
-  color:#c3c3c3;
-  margin-bottom: 10px;
-}
-
-#vid{
-  width: 700px;
 }
