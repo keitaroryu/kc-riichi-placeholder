@@ -350,14 +350,6 @@
 
 /*END OF NORMALIZATION CODE */
 
-@media only screen and (max-width: 1000px) {
-  #header-img{
-    float: middle;
-    height: 100%;
-    width: 100%;
-    padding-bottom: 40px;
-    }
-  }
 
 body {
   border: 0px solid transparent;
@@ -371,36 +363,18 @@ body {
 }
 
 header {
-/*   display: flex;
-  flex-direction: column;
-  align-items: flex-start; */
-  border: 0px solid transparent;
-  border-color: rgb(0,0,0);
   height: auto;
 }
 
 h1 {
-  align-self: center;
-  font: 60px arial;
-  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-
-h2 {
-  display: inline;
-  font: 50px arial;
-  color:white;
-}
-
 
 div {
   border: 0px solid transparent;
   border-color: rgb(0,0,0);
   padding: 25px;
-}
-
-img {
-  border: 0px solid transparent;
-  border-color: rgb(0,0,0);
 }
 
 p {
@@ -413,15 +387,11 @@ p {
 }
 
 .divider{
-/*   display: flex;
-  flex-direction: column;
-  align-items: flex-start; */
   margin-left: auto;
   margin-right: auto;
 }
 
 .img-divider{
-/*   align-self: center; */
   border: 0px solid transparent;
   border-color: rgb(0,0,0);
   height: 100px;
@@ -437,18 +407,25 @@ p {
 }
 
 .social-img{
-  width: 66px;
   height: 50px;
+  width: 66px;
 }
 
 #emblem{
-  width: 134px;
-  height: 134px;
-  vertical-align: middle;
+  width: 250px;
+  height: 250px;
+  padding-top: 75px;
+}
+
+#header-text {
+  font: 60px arial;
+  color: white;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #header-img{
-/*   align-self: center; */
   float: middle;
   height: 450px;
   width: 800px;
@@ -457,16 +434,36 @@ p {
 
 #calender {
   float: middle;
+  height: 600px;
+  width: 800px;
 }
 
-#group-img {
-  height: 798px;
-  width: 600px;
-  padding-right: 50px;
+#event-img {
+  height: 732px;
+  width: 550px;
+  padding: 25px;
 }
 
-#sticks-img {
-  height: 798px;
-  width: 600px;
-  padding-left: 50px;
-}
+@media only screen and (max-width: 800px) {
+  #header-img{
+      height: auto;
+      width: 80%;
+    }
+
+  .img-divider{
+      height:auto;
+      width: 100%;
+    }
+
+  #calender {
+    height: 400px;
+    width: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 550px) {
+      #event-img {
+      height: auto;
+      width: 80%;
+     }
+    }
