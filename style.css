@@ -350,25 +350,37 @@
 
 /*END OF NORMALIZATION CODE */
 
+@media only screen and (max-width: 1000px) {
+  #header-img{
+    float: middle;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 40px;
+    }
+  }
+
 body {
   border: 0px solid transparent;
   border-color: rgb(0,0,0);
   background-image: url(images/mat-background.jpg);
-  background-repeat: repeat;
+/*   background-repeat: repeat; */
   background-size: 35% auto;
   flex-direction: column nowrap;
-  width: 2000px;
   margin: 0px auto;
   text-align: center;
 }
 
 header {
+/*   display: flex;
+  flex-direction: column;
+  align-items: flex-start; */
   border: 0px solid transparent;
   border-color: rgb(0,0,0);
   height: auto;
 }
 
 h1 {
+  align-self: center;
   font: 60px arial;
   color: white;
 }
@@ -378,6 +390,7 @@ h2 {
   font: 50px arial;
   color:white;
 }
+
 
 div {
   border: 0px solid transparent;
@@ -400,11 +413,15 @@ p {
 }
 
 .divider{
+/*   display: flex;
+  flex-direction: column;
+  align-items: flex-start; */
   margin-left: auto;
   margin-right: auto;
 }
 
 .img-divider{
+/*   align-self: center; */
   border: 0px solid transparent;
   border-color: rgb(0,0,0);
   height: 100px;
@@ -430,83 +447,12 @@ p {
   vertical-align: middle;
 }
 
-#east {
-  width:  233px;
-  height: 210px;
-  position: relative;
-  top: -2850px;
-  left: 0px;
-}
-
-#riichi-stick-header {
-  transform: rotate(-40deg);
-  width:  410px;
-  height: 50px;
-  position: relative;
-  top: -2500px;
-  left: -400px;
-}
-
 #header-img{
+/*   align-self: center; */
   float: middle;
   height: 450px;
   width: 800px;
   padding-bottom: 40px;
-}
-
-#five-man {
-  width:  233px;
-  height: 210px;
-  position: relative;
-  top: -2650px;
-  left: 700px;
-}
-
-#green-dragon {
-  width:  233px;
-  height: 210px;
-  position: relative;
-  top: -2150px;
-  left: 650px;
-}
-
-#riichi-stick {
-  float: right;
-  transform: rotate(-5deg);
-  width:  410px;
-  height: 50px;
-}
-
-#hundred-point {
-  float: left;
-  transform: rotate(20deg);
-  width:  410px;
-  height: 50px;
-}
-
-#one-pin {
-  width:  233px;
-  height: 210px;
-  position: relative;
-  top: -1400px;
-  left: -1200px;
-}
-
-#one-sou {
-  width:  233px;
-  height: 210px;
-  position: relative;
-  top: -1500px;
-  left: 0px;
-}
-
-#hundred-point-calender {
-  width:  410px;
-  height: 50px;
-  transform: rotate(60deg);
-  position: relative;
-  top: -1000px;
-  left: 950px;
 }
 
 #calender {
@@ -523,12 +469,4 @@ p {
   height: 798px;
   width: 600px;
   padding-left: 50px;
-}
-
-#seven-pin {
-  width:  233px;
-  height: 210px;
-  position: relative;
-  top: -500px;
-  left: -1000px;
 }
