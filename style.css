@@ -380,7 +380,7 @@ h2 {
 }
 
 div {
-  border: 0px solid transparent;
+  border: 10px solid transparent;
   border-color: rgb(0,0,0);
   padding: 25px;
 }
@@ -528,7 +528,7 @@ p {
 #seven-pin {
   width:  233px;
   height: 210px;
-  position: absolute;
-  top: 2900px;
-  left: 600px;
+  position: relative;
+  top: -300px;
+  left: -800px;
 }
