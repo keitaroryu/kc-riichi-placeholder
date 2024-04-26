@@ -380,7 +380,7 @@ h2 {
 }
 
 div {
-  border: 10px solid transparent;
+  border: 0px solid transparent;
   border-color: rgb(0,0,0);
   padding: 25px;
 }
@@ -433,18 +433,18 @@ p {
 #east {
   width:  233px;
   height: 210px;
-  position: absolute;
-  top: 200px;
-  left: 700px;
+  position: relative;
+  top: -3000px;
+  left: 0px;
 }
 
 #riichi-stick-header {
   transform: rotate(-30deg);
   width:  410px;
   height: 50px;
-  position: absolute;
-  top: 700px;
-  left: 600px;
+  position: relative;
+  top: -2600px;
+  left: -400px;
 }
 
 #header-img{
@@ -457,17 +457,17 @@ p {
 #five-man {
   width:  233px;
   height: 210px;
-  position: absolute;
-  top: 350px;
-  left: 2150px;
+  position: relative;
+  top: -2800px;
+  left: 700px;
 }
 
 #green-dragon {
   width:  233px;
   height: 210px;
-  position: absolute;
-  top: 950px;
-  left: 2350px;
+  position: relative;
+  top: -2250px;
+  left: 1450px;
 }
 
 #riichi-stick {
@@ -487,26 +487,26 @@ p {
 #one-pin {
   width:  233px;
   height: 210px;
-  position: absolute;
-  top: 1900px;
-  left: 700px;
+  position: relative;
+  top: -1400px;
+  left: -1200px;
 }
 
 #one-sou {
   width:  233px;
   height: 210px;
-  position: absolute;
-  top: 1700px;
-  left: 2150px;
+  position: relative;
+  top: -1500px;
+  left: 0px;
 }
 
 #hundred-point-calender {
   width:  410px;
   height: 50px;
   transform: rotate(60deg);
-  position: absolute;
-  top: 2600px;
-  left: 2250px;
+  position: relative;
+  top: -1000px;
+  left: 950px;
 }
 
 #calender {
@@ -529,6 +529,6 @@ p {
   width:  233px;
   height: 210px;
   position: relative;
-  top: -300px;
-  left: -800px;
+  top: -500px;
+  left: -1000px;
 }
